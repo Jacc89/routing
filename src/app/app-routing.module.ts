@@ -5,6 +5,9 @@ import { LoginPagesComponent } from './Pages/login-pages/login-pages.component';
 import { ContactsPagesComponent } from './Pages/contacts-pages/contacts-pages.component';
 import { ContactDetailPagesComponent } from './Pages/contact-detail-pages/contact-detail-pages.component';
 import { NotFoundPagesComponent } from './Pages/not-found-pages/not-found-pages.component';
+import { NuestrosServiciosComponent } from './Pages/nuestros-servicios/nuestros-servicios.component';
+import { QueHacemosComponent } from './Pages/que-hacemos/que-hacemos.component';
+import { EquipoComponent } from './Pages/equipo/equipo.component';
 
 const routes: Routes = [
   {
@@ -18,8 +21,9 @@ const routes: Routes = [
     component: HomePagesComponent,
     children:[
       {
-        path: 'hijo',
-        component: HomePagesComponent
+        path: 'quehacemos',
+        component: QueHacemosComponent
+    
       }
     ]
   },
@@ -34,6 +38,20 @@ const routes: Routes = [
   {
     path: 'contacts/:id', 
     component: ContactDetailPagesComponent
+  },
+  {
+    path: 'servicios', 
+    component: NuestrosServiciosComponent
+  },
+  {
+    path: 'quehacemos',
+    component: QueHacemosComponent
+
+  },
+  {
+    path: 'equipo',
+    component: EquipoComponent
+
   },
   {
     path: '**',

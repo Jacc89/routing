@@ -8,6 +8,9 @@ import { NotFoundPagesComponent } from './Pages/not-found-pages/not-found-pages.
 import { HomePagesComponent } from './Pages/home-pages/home-pages.component';
 import { ContactsPagesComponent } from './Pages/contacts-pages/contacts-pages.component';
 import { ContactDetailPagesComponent } from './Pages/contact-detail-pages/contact-detail-pages.component';
+import { NuestrosServiciosComponent } from './Pages/nuestros-servicios/nuestros-servicios.component';
+import { QueHacemosComponent } from './Pages/que-hacemos/que-hacemos.component';
+import { EquipoComponent } from './Pages/equipo/equipo.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +19,10 @@ import { ContactDetailPagesComponent } from './Pages/contact-detail-pages/contac
     NotFoundPagesComponent,
     HomePagesComponent,
     ContactsPagesComponent,
-    ContactDetailPagesComponent
+    ContactDetailPagesComponent,
+    NuestrosServiciosComponent,
+    QueHacemosComponent,
+    EquipoComponent
   ],
   imports: [
     BrowserModule,

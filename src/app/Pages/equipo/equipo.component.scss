@@ -1,47 +1,55 @@
 
-/* equipo */
-// .equipoS a h3.equipoN{
-//     color: rgb(69, 46, 202);
-//     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-
-// }
-
 .avatar{
 
     width: 111px;
     height: 150px;
     text-align: center;
-    border-radius: 2px;
+    border-radius: 50%;
     border-image-slice: initial;
 
 }
 #equipo .h3 a{
-    /* margin: 15px; */
-    color: rgb(69, 46, 202);
+    margin: 15px; 
+    color: rgb(199, 196, 216);
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     text-align: center;
     font-size:16px;
 }
 .equipo{
-//     width: 100vh;
-//     height: auto;
-// background: #7474BF;  /* fallback for old browsers */
-// background: -webkit-linear-gradient(to right, #348AC7, #7474BF);  /* Chrome 10-25, Safari 5.1-6 */
-// background: linear-gradient(to right, #348AC7, #7474BF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
-position: relative;
+    position: relative;
     width: 100%;
-    height: 100%;
+    height: 100vh;
     margin-bottom: 50px;
-    background-size: 100%;
-    background:url("../../../assets/img/Pesados-50.web_.jpg")no-repeat;
-    background-size: cover;
-   
+    background: #5C258D;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #4389A2, #5C258D);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #4389A2, #5C258D); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
 }
 .h1{
     margin: 0px;    
-    color: rgb(69, 46, 202);
+    padding-bottom: 10px;
+    color: rgb(199, 196, 216);
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     text-align: center;
     font-size:50px;
+}
+.alin{
+    align-content: center;
+}
+/* equipo */
+.equipo a h3.equipoN{
+    color: rgb(199, 196, 216);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+.modal-body{
+    color: rgb(199, 196, 216);
+    // font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: large;
+    background: #5C258D;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #4389A2, #5C258D);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #4389A2, #5C258D); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+
 }
